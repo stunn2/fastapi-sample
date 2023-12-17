@@ -1,0 +1,4 @@
+apiVersion: v2
+description: A Helm chart for Kubernetes to deploy fastapi
+name: server-ip
+version: "1.0"

@@ -1,5 +1,0 @@
-apiVersion: v1
-appVersion: "0.1"
-description: A Helm chart for Kubernetes to deploy fastapi
-name: fastapi
-version: "0.1"
