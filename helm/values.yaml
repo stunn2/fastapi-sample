@@ -3,8 +3,7 @@ replicaCount: 3
 
 
 image:
-  repository: 987313237108.dkr.ecr.eu-west-1.amazonaws.com/server_ip:latest
-  pullPolicy: Always
+  repository: 987313237108.dkr.ecr.eu-west-1.amazonaws.com/server_ip:1.1
 
 deploymentlabels:
   app: frontend
