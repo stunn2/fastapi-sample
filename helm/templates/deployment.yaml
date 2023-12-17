@@ -20,6 +20,6 @@ spec:
       containers:
         - name: {{ .Values.Name }}
           image: {{ .Values.image.repository }}
+          imagePullPolicy: Always
           ports:
           - containerPort: 8000
-      imagePullPolicy: Always
