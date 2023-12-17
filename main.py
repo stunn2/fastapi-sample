@@ -27,12 +27,12 @@ async def root():
     geolocation_data = get_geolocation()
     return geolocation_data 
 
-@app.post("/")
+@app.post("/insert")
 async def post():
     return {"message": "yet another change the post route 2"}
 
 
-@app.put("/")
+@app.put("/update")
 async def put():
     return {"message": "yet another change the put message 2"}
 
