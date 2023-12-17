@@ -29,7 +29,7 @@ async def root():
 
 @app.post("/")
 async def post():
-    return {"message": "test yet another change the post route 1"}
+    return {"message": "yet another change the post route 1"}
 
 
 @app.put("/")
