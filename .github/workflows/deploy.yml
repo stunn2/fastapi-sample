@@ -49,4 +49,4 @@ jobs:
     
     - name: Deploy to EKS
       run: |
-        helm upgrade --install server-ip helm/. --version 0.1.0
+        helm upgrade --install --force server-ip helm/. --version 0.1.0
