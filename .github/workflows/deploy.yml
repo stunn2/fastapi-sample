@@ -49,6 +49,6 @@ jobs:
     
     - name: Deploy to EKS
       run: |
-        helm install server-ip . --version 0.1.0
+        helm install server-ip helm/. --version 0.1.0
         # kubectl apply -f templates/deployment.yaml
         # kubectl apply -f templates/service.yaml
